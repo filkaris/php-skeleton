@@ -20,6 +20,7 @@
     },
     "scripts": {        
         "post-create-project-cmd": "git init",
-        "test": "vendor/bin/phpunit"
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverate-text"
     }
 }
